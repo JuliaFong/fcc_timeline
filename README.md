@@ -1,0 +1,1 @@
+To complete freeCodeCamps 300 hour HTML5 & CSS3 certification, making a front-end timeline is part of the requirment. 
