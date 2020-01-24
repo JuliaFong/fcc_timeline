@@ -1,17 +1,40 @@
-#title{
-    display: center;
+#main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffe0; 
+}
+
+#container {
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+#title {
+    align-content: center;
+    margin: 0 auto;
+    padding-right: 20px; 
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
   img {
     max-width: 100%;
     display: block;
     height: auto;
     margin: 0 auto;
-  }
-  
-  #img-div {
+}
+
+#img-div {
     background: white;
     padding: 10px;
     margin: 0;
+    background-color: #ffffe0;
   }
   
   #img-caption {
@@ -20,4 +43,9 @@
   em {
     display: center;
     text-align: center;
+  }
+  #footer{
+      display: flex;
+      flex-direction: column;
+      text-align: center
   }
